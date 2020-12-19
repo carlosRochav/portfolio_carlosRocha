@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Rocha | Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        @media (max-width: 1200px) {
+          nav {
+            grid-template-columns: 10fr 3fr 3fr 4fr;
+          }
+        }
+        @media (max-width: 750px) {
+          nav {
+            grid-template-columns: 4fr 3fr 3fr 4fr;
+          }
+          a {
+            font-size: 15px; 
+          }
+        }
+    </style>
+    
+</head>
+<body> 
+    <nav id="navbar">
+        <strong><a href="#projects">Inicio</a></strong>
+        <strong><a href="#about_me">Sobre Mi</a></strong>
+        <strong><a id="profile-link" href="https://github.com/carlosRochav" target="_blank">Mi Perfil a GitHub</a></strong>       
+    </nav>
+    <section id="welcome-section" class="cover">
+    <div class="color">
+        <h1>Hola soy Carlos Rocha y quiero ser Web Developer</h1> 
+    </div>          
+    </section>
+    <section id="projects">
+        <div class="mosaic">
+            <div class="project-tile" id=""><h4>PHP</h4><p>Pequeño proyecto tipo login con PHP</p>
+            <a class="link" href="https://github.com/carlosRochav/login_php">Login PHP</a>
+            </div>
+            <div class="project-tile" id=""><h4>JavaScript</h4><p>Tengo conocimientos basicos e intermedios como el local Storage</p>
+            <a class="link" href="https://github.com/carlosRochav/costosEmp">Calculadora Costos Empresariales</a>
+            </div>
+        </div>
+    </section>
+    <!--Seccion para unas cosas extras-->
+    <section class="cosas">
+            <h4>Bienvenido a mi inexperiencia</h3>
+                <div class="deMi">
+                    <div class="box">
+                    <h3>Sobre mi</h3>
+                    <p>Mi Nombre es Carlos Ernesto Rocha Valenzula soy de Tijuana, Baja California, estudio
+                        en el Instituto Tecnologico de Tijuana cursando el 4to semestre de la carrera de 
+                        Ing. Informatica. Cuento con 21 años actualmente.
+                    </p>
+                </div>
+                <div class="box">
+                    <h3>Lo que se</h3>
+                    <p>
+                        Actualmente aspiro en convertirme en desarrolador web con conocimientos de front-end tanto
+                        como de back-end conozco lo basico de ambas partes: html, css, javascript,bootstrap, php,mysql.
+                    </p>
+                </div>
+                <div class="box">
+                    <h3>Que quiero aprender</h3>
+                    <p>
+                        Como cualquier otro aspitante al desarrollo web que le gustaria dominar todas las tecnologias
+                        tanto como de front-end y de back-end, pero mas a corto plazo seria Angular, Typescript como Node.js
+                    </p>
+                </div>
+            <div class="deMi"></div>
+        </div>        
+
+    </section>    
+    <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
