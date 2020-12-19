@@ -10,10 +10,11 @@ body{
 #navbar{
     background: #383534;
     width: 100%;
-    height: 30px;
+    height: 30px;   
     padding: 10px;
+    top:0;
     /*Fixed sirve para seguir siempre presente sim importar en que parte de pagina estas*/
-    position:fixed;          
+    position:sticky;          
     
     }
 
